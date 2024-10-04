@@ -1,0 +1,20 @@
+{
+    "name": "truenorthmortgage/tnm-kint",
+    "description": "Custom Kint Configuration for truenorthmortgage Projects",
+    "keywords": [
+        "kint",
+        "debugging"
+    ],
+    "homepage": "https://github.com/truenorthmortgage/tnm-kint",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "kint-php/kint": "^4.1"
+    },
+    "autoload": {
+        "files": [
+            "src/tnm-kint-config.php"
+        ]
+    }
+}
